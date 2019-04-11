@@ -1,0 +1,228 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#fon1{
+	background-image: url(1.jpg);
+	height: 100%;
+	width: 100%;
+}
+
+/*Шапка*/
+
+#head{
+	position: relative;
+	width: 100%;
+	height: 40px;
+	margin: 0 auto;
+	background: linear-gradient(to bottom,#212020, transparent 2em);
+	border-bottom: 1px solid silver;
+}
+
+#menu{
+	position: absolute;
+	width: 100%;
+}
+
+#menu ul{
+	text-align: center;
+	padding-top:10px;
+}
+
+#menu ul li{
+	display: inline;
+	padding: 10px 80px 10px 80px;
+	font-family: 'Raleway', monospace;
+	font-size: 1.1em;
+	color: white;
+}
+
+#menu ul li:hover{
+	background-color: white;
+	color: grey;
+	cursor: pointer;
+}
+
+/*появление подменю*/
+ul li ul {
+    position: absolute;
+    top: 40px;
+    left: 344px;
+    width: 100px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transiton: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    -transition: opacity 0.2s;
+    border-bottom: none;
+}
+
+#menu ul li ul li{ 
+	margin-top: 50px;
+	padding: 10px 64px 10px 64px;
+}
+
+ul li ul li:hover { background: #666;}
+ul li:hover ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*1 контент*/
+
+#content{
+	position: relative;
+	margin: 0 auto;
+	margin-top:20px;
+	width: 100%;
+	height: 597px;
+	background-color: /*grey*/ /*transparent*/;
+	opacity:0.9;
+}
+
+#b1l{
+	position: absolute;
+	width: 500px;
+	height: 250px;
+	/*background-color: blue;*/
+	margin-top: 70px;
+	margin-left: 20px;
+}
+
+#b1lt{
+	font-size: 4em;
+	line-height: 1.3;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+}
+
+/*2 контент*/
+
+#fon2{
+	position: relative;
+	background-image: url(3.jpg);
+	height: 100%;
+	width: 100%;
+}
+
+#b2c{
+	padding-top: 60px;
+	color: white;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5em;
+}
+
+#ch{
+	padding-top: 100px;
+	width: 1000px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+#ch4{
+	height: 200px;
+	width: auto;
+	padding: 50px;
+}
+
+#ch5{
+	padding: 50px;
+}
+
+#ch6{
+	height: 200px;
+	width: auto;
+	padding: 50px;
+}
+
+/*3 контент*/
+
+#fon3{
+	position: relative;
+	background-image: url(8.jpg);
+	height: 100%;
+	width: 100%;
+}
+
+#dob{
+	margin: 0 auto;
+	padding-top: 60px;
+	width: 800px;
+	/*background-color: blue;*/
+	text-align: center;
+}
+
+#b3c{
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5em;
+	color: white;
+}
+
+#wrapperdob{
+	margin: 0 auto;
+	margin-top: 100px;
+	padding-left: 70px;
+	width: 1000px;
+	height: 150px;
+}
+
+#dob2{
+	margin: 0 auto;
+	margin-top: 40px;
+	text-align: center;
+	font-family: 'Raleway', monospace;
+	font-size: 1.5em;
+	color: white;
+	width: 600px;
+	height: 50px;
+	/*background-color: red;*/
+}
+
+#dob3{
+	margin-top: 100px;
+	margin: 10px;
+	padding-top: 5px;
+	width: 300px;
+	height: 105px;
+	float: left;
+	background-color: grey;
+	color: white;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#dob4{
+	margin-top: 100px;
+	margin: 10px;
+	padding-top: 5px;
+	width: 200px;
+	height: 105px;
+	float: left;
+	background-color: grey;
+	color: white;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#dob5{
+	margin-top: 100px;
+	margin: 10px;
+	padding-top: 5px;
+	width: 350px;
+	height: 105px;
+	float: left;
+	background-color: grey;
+	color: white;
+	font-size: 1.2em;
+	text-align: center;
+}
